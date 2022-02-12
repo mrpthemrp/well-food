@@ -1,5 +1,6 @@
 module.exports = {
   content: ['./en/**/*.{html,js}'],
+  mode: 'jit',
   theme: {
     colors: {
       'midnight': '#69306D',

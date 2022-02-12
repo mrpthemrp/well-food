@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
-        <div class="container flex flex-wrap justify-between items-center mx-auto pv-4 bg-transparent relative z-40">
+    <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded w-full fixed z-40">
+        <div class="container flex flex-wrap justify-between items-center mx-auto pv-4">
             <a href="/en" class="flex">
                 <img src="../assets/home-icon.svg" alt="Go to homepage" class="h-6">
             </a>
@@ -24,7 +24,7 @@
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                 <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </button>
-            <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+            <div class="hidden w-full md:block md:w-auto bg-transparent" id="mobile-menu">
                 <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium uppercase">
                     <li>
                         <a href="about.html" class="block py-2 pr-4 pl-3 text-midnight border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-dark-midnight md:py-0.5">About</a>
@@ -45,14 +45,25 @@
             </div>
         </div>
     </nav>
-    <div class="flex flex-col mobile:w-full sm:w-2/3 md:w-7/12 justify-between px-8 mobile:py-16 sm:py-32 leading-normal">
-        <h1 class="mb-8 text-4xl font-bold tracking-tight text-russian-violet">WELLFOOD.</h1><br>
-        <p class="mb-3 font-normal text-gray-900"><em>Fighting a high rise problem — hunger.</em></p><br>
-        <p class="font-normal text-gray-900"><em>Through access to good and nutritious foods, community education, and advocacy, WellFood is aiming to eliminate hunger
-        and promote the health and well-being of our community.</em></p>
-    </div>
-    <img class="z-0 absolute right-0 bottom:0 md:top-0 opacity-25 mobile:w-screen md:h-screen md:rounded-none md:rounded-r-lg"
-        src="../assets/landing-hero-image.jpg" alt="">
+
+    <main class="bg-gray-50">
+        <div class="grid items-center md:grid-cols-[1fr_0.9fr] w-full">
+            <div class="flex basis-1 flex-col justify-between px-8 py-16 justify-center leading-normal">
+                <h1 class="mb-8 text-4xl lg-text-5xl font-bold tracking-tight text-russian-violet">WELLFOOD.</h1><br>
+                <p class="mb-3 font-normal text-gray-900"><em>Fighting a high rise problem — hunger.</em></p><br>
+                <p class="font-normal text-gray-900"><em>Through access to good and nutritious foods, community education, and advocacy, WellFood is aiming to eliminate hunger
+                and promote the health and well-being of our community.</em></p>
+            </div>
+            <img class="opacity-50 md:opacity-25 w-full h-full object-contain" src="../assets/landing-hero-image.jpg"
+                alt="Volunteers handing out food">
+        </div>
+
+        <div class="grid items-center md:grid-cols-[0.9fr_1fr] w-full">
+            <div>
+                <p class="text-l font-normal text-black">Text here</p>
+            </div>
+        </div>
+    </main>
 
     <script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script>
 </body>
