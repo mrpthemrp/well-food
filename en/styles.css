@@ -695,14 +695,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 13rem;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
-.h-8 {
-  height: 2rem;
-}
-
 .w-6 {
   width: 1.5rem;
 }
@@ -791,16 +783,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   row-gap: 2rem;
 }
 
-.gap-y-4 {
-  row-gap: 1rem;
-}
-
 .gap-y-2 {
   row-gap: 0.5rem;
-}
-
-.place-self-center {
-  place-self: center;
 }
 
 .overflow-x-hidden {
@@ -852,14 +836,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-top-width: 0px;
 }
 
-.bg-midnight {
-  --tw-bg-opacity: 1;
-  background-color: rgb(105 48 109 / var(--tw-bg-opacity));
-}
-
 .bg-dark-midnight {
   --tw-bg-opacity: 1;
   background-color: rgb(68 31 71 / var(--tw-bg-opacity));
+}
+
+.bg-midnight {
+  --tw-bg-opacity: 1;
+  background-color: rgb(105 48 109 / var(--tw-bg-opacity));
 }
 
 .bg-antique-fuschia {
@@ -923,81 +907,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 3rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.px-28 {
-  padding-left: 7rem;
-  padding-right: 7rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
-
-.px-\[5\.5rem\] {
-  padding-left: 5.5rem;
-  padding-right: 5.5rem;
-}
-
-.px-\[5\.75rem\] {
-  padding-left: 5.75rem;
-  padding-right: 5.75rem;
-}
-
-.px-\[3\.75rem\] {
-  padding-left: 3.75rem;
-  padding-right: 3.75rem;
-}
-
-.px-\[3\.7rem\] {
-  padding-left: 3.7rem;
-  padding-right: 3.7rem;
-}
-
-.px-\[5\.8rem\] {
-  padding-left: 5.8rem;
-  padding-right: 5.8rem;
-}
-
-.px-\[3\.65rem\] {
-  padding-left: 3.65rem;
-  padding-right: 3.65rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
-
-.px-\[7\.25\] {
-  padding-left: 7.25;
-  padding-right: 7.25;
-}
-
-.px-\[7\.25rem\] {
-  padding-left: 7.25rem;
-  padding-right: 7.25rem;
-}
-
 .px-\[7\.2rem\] {
   padding-left: 7.2rem;
   padding-right: 7.2rem;
@@ -1035,10 +944,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-12 {
   padding-bottom: 3rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
 }
 
 .pt-6 {
@@ -1118,14 +1023,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   letter-spacing: -0.025em;
 }
 
-.text-dark-midnight {
-  --tw-text-opacity: 1;
-  color: rgb(68 31 71 / var(--tw-text-opacity));
-}
-
 .text-midnight {
   --tw-text-opacity: 1;
   color: rgb(105 48 109 / var(--tw-text-opacity));
+}
+
+.text-dark-midnight {
+  --tw-text-opacity: 1;
+  color: rgb(68 31 71 / var(--tw-text-opacity));
 }
 
 .text-russian-violet {
@@ -1242,38 +1147,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:grid-cols-\[0\.8fr_1\.2fr\] {
     grid-template-columns: 0.8fr 1.2fr;
-  }
-
-  .md\:grid-cols-\[repeat\(4\2c _1fr\)\] {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .md\:grid-cols-\[1fr\] {
-    grid-template-columns: 1fr;
-  }
-
-  .md\:grid-cols-\[1fr\2c \] {
-    grid-template-columns: 1fr ;
-  }
-
-  .md\:grid-cols-\[1fr\2c _1fr\2c _0\.\] {
-    grid-template-columns: 1fr 1fr 0.;
-  }
-
-  .md\:grid-cols-\[1fr\2c _1fr\2c _0\.8fr\2c \] {
-    grid-template-columns: 1fr 1fr 0.8fr ;
-  }
-
-  .md\:grid-cols-\[1fr\2c _1fr\2c _0\.8fr\2c _\] {
-    grid-template-columns: 1fr 1fr 0.8fr ;
-  }
-
-  .md\:grid-cols-\[1fr\2c _1fr\2c _0\.8fr\2c _0\.5fr\] {
-    grid-template-columns: 1fr 1fr 0.8fr 0.5fr;
-  }
-
-  .md\:grid-cols-\[1fr\2c _1fr\2c _0\.8fr\2c _0\.8fr\] {
-    grid-template-columns: 1fr 1fr 0.8fr 0.8fr;
   }
 
   .md\:grid-cols-4 {
