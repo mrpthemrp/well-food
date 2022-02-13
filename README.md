@@ -2,7 +2,6 @@
 
 ## Inspiration
 
-
 We took inspiration from food delivery services like Skip the Dishes and Doordash to provide a platform between *suppliers* and *organizations* so that those who have excess food, which would otherwise go to waste, can share it with organizations that help people who suffer with food insecurity. 
 
 If this idea were to work in reality we would need to contract drivers to pick up food from suppliers and deliver it to the organizations. We believe that charging the organizations, who have access to funds in order to carry out their current operations, would make the most sense. We would have to ensure that the fee is low enough that it makes sense for them to use the service, but enough to cover the cost of our expenses. We opted against charging the suppliers because it would be difficult to get them to alter their behavior (packing food up for a delivery rather than throwing it away) if it is also going to cost them. 
@@ -18,23 +17,23 @@ If this idea were to work in reality we would need to contract drivers to pick u
 
 - To inform curious visitors about the issue of food insecurity and how dealing with food waste will help to alleviate the problem
 
-
 - To provide a portal for organizations to create an account, provide details on their food needs, easily calculate their cost, and provide flexibility so they can change their preferences easily to adapt to emergency situations
 
 - To provide an easy to use portal for suppliers to create an account, provide details on what they are able to donate, schedule convenient pickups, and see which organizations that they have helped, which may be helpful for tax purposes
 
 
 ## How we built it
+### Prototype:
+- Figma
 
+### Website:
 - HTML
 - CSS (and Tailwind)
 - JavaScript
-- Figma
 - GitHub Pages
 
 
 ## Challenges we ran into
-
 
 - We were unable to fully implement the website due to the time limit
 - We had to discard back-end features that we would have liked to be able to implement (ex. a user database)
@@ -42,7 +41,6 @@ If this idea were to work in reality we would need to contract drivers to pick u
 
 
 ## Accomplishments that we're proud of
-
 
 - Creating a stunning and professional design for our platform
 - Completing a working Figma prototype
