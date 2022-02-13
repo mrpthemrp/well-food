@@ -8,6 +8,7 @@ module.exports = {
       'russian-violet': '#0E103D',
       'antique-fuschia': '#A5668B',
       'pink-lace': '#F2D7EE',
+      'silver-pink': '#D3BCC0',
     },
     extend: {},
   },

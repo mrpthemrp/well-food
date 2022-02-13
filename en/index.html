@@ -67,7 +67,7 @@
             </div>
         </div>
 
-        <div class="px-4 items-center w-screen flex flex-col pt-8 pb-16 mb-2 relative z-30">
+        <div class="px-4 items-center w-screen flex flex-col pt-8 pb-16 mb-20 relative z-30">
             <div class="bg-antique-fuschia absolute top-0 left-0 w-[43%] h-full z-0" id="landing-trapezoid"></div>
             <h3 class="uppercase font-bold text-center text-2xl mb-2 relative z-20">What is food insecurity?</h3>
             <span class="bg-midnight h-[0.18rem] w-60 mb-8"></span>
@@ -87,9 +87,47 @@
             </div>
         </div>
 
-        
-
+        <div class="w-screen items-center flex flex-col">
+            <h3 class="uppercase font-bold text-center text-2xl mb-2 relative z-20">Learn more. Make a difference.</h3>
+            <span class="bg-midnight h-[0.18rem] w-60 mb-4"></span>
+            <div class="grid items-center md:grid-cols-[repeat(2,_1fr)] w-full gap-y-8 pt-8 pb-12">
+                <a href="about.html" class="items-center justify-center text-center hover:bg-silver-pink p-8 rounded-lg">
+                    <img class="mx-auto mb-4 max-h-7/12" src="../assets/landing-about-choice.png" alt="Helpers distributing boxes of fruit">
+                    <p class="uppercase text-2xl font-bold">About us</p>
+                </a>
+                <a href="faq.html" class="items-center justify-center text-center hover:bg-silver-pink p-8 rounded-lg">
+                    <img class="mx-auto mb-4 max-h-7/12" src="../assets/landing-faq-choice.png" alt="Helpers distributing boxes of fruit">
+                    <p class="uppercase text-2xl font-bold">Go to FAQs</p>
+                </a>
+            </div>
+        </div>
     </main>
+    <footer class="flex flex-col text-white">
+        <div class="grid md:grid-cols-4 gap-y-2 bg-midnight pt-6 uppercase h-52 justify-center">
+            <div class="flex flex-col text-center">
+                <h3 class="mb-4 font-medium text-xl">Contact us</h3>
+                <div class="px-[7.2rem] cursor-pointer"><img class="h-6 float-left" src="../assets/phone-icon.svg" alt="Call us at"><p class="mb-2 text-lg">(800) 111-2222</p></div>
+                <div class="px-[3.6rem] cursor-pointer"><img class="h-6 float-left" src="../assets/map-icon.svg" alt="Our address is"><p class="mb-2">111 Highland Rd. Somewhere, Hypothetical 111111</p></div>
+                <div class="px-[5.85rem] cursor-pointer"><img class="h-6 float-left" src="../assets/email-icon.svg" alt="Email us at"><p class="mb-2">info@wellfood.ca</p></div>
+            </div>
+            <div>
+                <h3 class="mb-4 font-medium text-xl">Additional Resources</h3>
+                <p class="mb-2 cursor-pointer">Privacy Policy</p>
+                <p class="cursor-pointer">Terms of Service</p>
+            </div>
+            <div>
+                <h3 class="mb-4 font-medium text-xl">Mission</h3>
+                <p class="mb-2">“Through access to good and nutritious food, community education, and advocacy, WellFood is aiming to to eliminate
+                hunger and promote the health and well-being of our community.”</p>
+            </div>
+            <div class="items-center text-center relative">
+                <h3 class="font-bold text-2xl absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]"><a href="/en">WellFood</a></h3>
+            </div>
+        </div>
+        <div class="bg-[#000] h-10 pt-2 pb-4 items-center">
+            <p class="text-center font-light">&#169; 2022 WELLFOOD</p>
+        </div>
+    </footer>
 
     <script src="app.js"></script>
     <script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script>
