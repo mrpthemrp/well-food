@@ -57,7 +57,7 @@ If this idea were to work in reality we would need to contract drivers to pick u
 
 ## What's next for WellFood
 
-- As a company WELLFOOD would need to add both front and backend functionality for managing its drivers, as well as posting for jobs
+- As a company WellFood would need to add both front and backend functionality for managing its drivers, as well as posting for jobs
 - Implementing a database to store user information
 - Implementing the logic and functionality to match suppliers and organizations
 - Implementing user account authentication and security
