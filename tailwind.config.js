@@ -1,6 +1,5 @@
 module.exports = {
   content: ['./en/**/*.{html,js}'],
-  mode: 'jit',
   theme: {
     colors: {
       'midnight': '#69306D',
@@ -9,6 +8,7 @@ module.exports = {
       'antique-fuschia': '#A5668B',
       'pink-lace': '#F2D7EE',
       'silver-pink': '#D3BCC0',
+      'dark-silver-pink': '#B89399',
     },
     extend: {},
   },

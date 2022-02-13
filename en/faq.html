@@ -12,12 +12,12 @@
     <title>FAQ | WellFood</title>
 </head>
 <body>
-    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded fixed w-full transition-colors">
         <div class="container flex flex-wrap justify-between items-center mx-auto pv-4">
             <a href="/en" class="flex">
-                <img src="../assets/home-icon.svg" alt="Go to homepage" class="h-6">
+                <h1 class="font-bold text-xl ml-4">WELLFOOD</h1>
             </a>
-            <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="mobile-menu-2" aria-expanded="false">
+            <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-dark-silver-pink focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="mobile-menu-2" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                 <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -44,56 +44,78 @@
         </div>
     </nav>
 
-    <div>FAQs</div>
+    <main class="bg-gray-100 grid grid-cols-2 py-16">
+      <div class="p-12">
+        <h1 class="text-5xl font-medium mb-4">FAQS</h1>
 
-    <div id="accordion-collapse" data-accordion="collapse">
-        <h2 id="accordion-collapse-heading-1">
-          <button type="button" class="flex items-center focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 justify-between p-5 w-full font-medium text-left border border-gray-200 dark:border-gray-700 border-b-0 text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-t-xl" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
-            <span>HOW DO I SIGN UP?</span>
-            <svg data-accordion-icon class="w-6 h-6 shrink-0 rotate-180" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-          </button>
-        </h2>
-        <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-          <div class="p-5 border border-gray-200 dark:border-gray-700 dark:bg-gray-900 border-b-0">
-            <p class="mb-2 text-gray-500 dark:text-gray-400">Click "SIGN UP/LOGIN" at the top left of the page to navigate to our sign up page</p>
+        <div id="accordion-collapse" data-accordion="collapse" class="text-black">
+          <h2 id="accordion-collapse-heading-1" class="my-4 bg-silver-pink rounded-3xl text-xl font-medium">
+            <button type="button" class="flex items-center focus:ring-4 focus:ring-gray-200 focus:bg-silver-pink justify-between p-5 w-full font-medium text-left text-black focus:hover:bg-dark-silver-pink rounded-3xl" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
+              <span>HOW DO I SIGN UP?</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="black" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </button>
+          </h2>
+          <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+            <div class="p-5">
+              <p class="mb-2 text-gray-900">Click "SIGN UP/LOGIN" at the top left of the page to navigate to our sign up page.</p>
+            </div>
           </div>
-        </div>
-        <h2 id="accordion-collapse-heading-2">
-          <button type="button" class="flex items-center focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 justify-between p-5 w-full font-medium border border-gray-200 dark:border-gray-700 border-b-0 text-left text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
-            <span>HOW DO I DONATE?</span>
-            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-          </button>
-        </h2>
-        <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
-          <div class="p-5 border border-gray-200 dark:border-gray-700 border-b-0">
-            <p class="mb-2 text-gray-500 dark:text-gray-400">Click "DONATE" at the top left of the page to navigate to our donation page</p>
+          <h2 id="accordion-collapse-heading-2" class="my-4 bg-silver-pink rounded-3xl text-black text-xl font-medium">
+            <button type="button" class="flex items-center focus:ring-4 focus:ring-gray-200 focus:bg-silver-pink justify-between p-5 w-full font-medium text-left text-black focus:hover:bg-dark-silver-pink rounded-3xl" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+              <span>HOW DO I DONATE?</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="black" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </button>
+          </h2>
+          <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+            <div class="p-5">
+              <p class="mb-2 text-gray-900">Click "DONATE" at the top right of the page to navigate to our donation page.</p>
+            </div>
           </div>
-        </div>
-        <h2 id="accordion-collapse-heading-3">
-          <button type="button" class="flex items-center border focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 border-gray-200 dark:border-gray-700 justify-between p-5 w-full font-medium text-left text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
-            <span>HOW DO I RESET MY PASSWORD?</span>
-            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-          </button>
-        </h2>
-        <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
-          <div class="p-5 border border-gray-200 dark:border-gray-700 border-t-0">
-            <p class="mb-2 text-gray-500 dark:text-gray-400">If you can't remember your password, navigate to the login screen, and click the link below the Login button. We will send you an email with further instructions.</p>
+          <h2 id="accordion-collapse-heading-3" class="my-4 bg-silver-pink rounded-3xl text-black text-xl font-medium">
+            <button type="button" class="flex items-center focus:ring-4 focus:ring-gray-200 focus:bg-silver-pink justify-between p-5 w-full font-medium text-left text-black focus:hover:bg-dark-silver-pink rounded-3xl" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+              <span>HOW DO I RESET MY PASSWORD?</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="black" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </button>
+          </h2>
+          <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+            <div class="p-5">
+              <p class="mb-2 text-gray-900">If you can't remember your password, navigate to the login screen, and click the link below the Login button. We will send you an email with further instructions.</p>
+            </div>
           </div>
-        </div>
-        <h2 id="accordion-collapse-heading-4">
-            <button type="button" class="flex items-center focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 justify-between p-5 w-full font-medium border border-gray-200 dark:border-gray-700 border-b-0 text-left text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
+          <h2 id="accordion-collapse-heading-4" class="my-4 bg-silver-pink rounded-3xl text-black text-xl font-medium">
+            <button type="button" class="flex items-center focus:ring-4 focus:ring-gray-200 focus:bg-silver-pink justify-between p-5 w-full font-medium text-left text-black focus:hover:bg-dark-silver-pink rounded-3xl" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
               <span>WHERE CAN I SEE WHO I'M HELPING?</span>
-              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="black" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </button>
           </h2>
           <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
-            <div class="p-5 border border-gray-200 dark:border-gray-700 border-b-0">
-              <p class="mb-2 text-gray-500 dark:text-gray-400">Once you have signed in you will be able to see a list of organizations that have received your food donations, with details about the organization and links to their websites.</p>
+            <div class="p-5">
+              <p class="mb-2 text-gray-900">Once you have signed in you will be able to see a list of organizations that have received your food donations, with details about the organization and links to their websites.</p>
             </div>
           </div>
+
+        </div>
+      </div>
+      <div class="p-12">
+        <h3 class="text-xl w-2/3 mb-8">Can't find your question? Send it to us and we'll get back to you as soon as we can!</h3>
+        <form>
+          <div class="mb-6">
+            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">EMAIL:</label>
+            <input type="email" id="email"
+              class="bg-gray-50 border border-gray-400 text-gray-900 text-sm rounded-xl focus:ring-antique-fuschia focus:border-antique-fuschia block w-full p-2.5"
+              placeholder="name@wellfood.com" required>
+          </div>
+          <div class="mb-6">
+            <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">YOUR MESSAGE:</label>
+            <textarea id="message" rows="5"
+              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-400 focus:ring-antique-fuschia focus:border-antique-fuschia"
+              placeholder="Leave a comment..."></textarea>
+          </div>
+          <button type="submit" class="float-right text-white bg-midnight hover:bg-dark-midnight focus:ring-4 focus:ring-antique-fuschia font-medium rounded-3xl text-sm px-12 py-2.5 text-center">SEND</button>
+        </form>
       </div>
 
-    <main class="bg-gray-100"></main>
+    </main>
     
     <footer class="flex flex-col text-white">
       <div class="grid md:grid-cols-4 gap-y-2 bg-midnight pt-6 uppercase h-52 justify-center">
