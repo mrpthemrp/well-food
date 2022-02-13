@@ -13,10 +13,10 @@
     <title>WellFood</title>
 </head>
 
-<body>
-    <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded w-full fixed z-40">
+<body class="overflow-x-hidden">
+    <nav class="border-gray-200 px-2 sm:px-4 py-2.5 w-full fixed z-40 transition-colors">
         <div class="container flex flex-wrap justify-between items-center mx-auto pv-4">
-            <a href="/en" class="flex">
+            <a href="/en" class="flex hover:bg-gray-100 rounded-md hover:shadow-md p-1">
                 <img src="../assets/home-icon.svg" alt="Go to homepage" class="h-6">
             </a>
             <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="mobile-menu-2" aria-expanded="false">
@@ -24,7 +24,7 @@
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                 <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </button>
-            <div class="hidden w-full md:block md:w-auto bg-transparent" id="mobile-menu">
+            <div class="hidden w-full md:block md:w-auto bg-transparent text-lg" id="mobile-menu">
                 <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium uppercase">
                     <li>
                         <a href="about.html" class="block py-2 pr-4 pl-3 text-midnight border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-dark-midnight md:py-0.5">About</a>
@@ -46,25 +46,52 @@
         </div>
     </nav>
 
-    <main class="bg-gray-50">
-        <div class="grid items-center md:grid-cols-[1fr_0.9fr] w-full">
-            <div class="flex basis-1 flex-col justify-between px-8 py-16 justify-center leading-normal">
-                <h1 class="mb-8 text-4xl lg-text-5xl font-bold tracking-tight text-russian-violet">WELLFOOD.</h1><br>
+    <main class="bg-gray-100">
+        <div class="grid items-center md:grid-cols-[repeat(2,_1fr)] w-full">
+            <div class="flex-col justify-between px-8 justify-center leading-normal">
+                <h1 class="mb-8 text-4xl font-bold tracking-tight text-russian-violet">WELLFOOD.</h1><br>
                 <p class="mb-3 font-normal text-gray-900"><em>Fighting a high rise problem — hunger.</em></p><br>
-                <p class="font-normal text-gray-900"><em>Through access to good and nutritious foods, community education, and advocacy, WellFood is aiming to eliminate hunger
+                <p class="font-normal text-gray-900"><em>Through access to good and nutritious foods, community education, and advocacy, WellFood aims to eliminate hunger
                 and promote the health and well-being of our community.</em></p>
             </div>
-            <img class="opacity-50 md:opacity-25 w-full h-full object-contain" src="../assets/landing-hero-image.jpg"
+            <img class="opacity-50 md:opacity-35 rounded-bl-md shadow-2xl" src="../assets/landing-hero-image.jpg"
                 alt="Volunteers handing out food">
         </div>
 
-        <div class="grid items-center md:grid-cols-[0.9fr_1fr] w-full">
-            <div>
-                <p class="text-l font-normal text-black">Text here</p>
+        <div class="grid items-center md:grid-cols-[repeat(2,_1fr)] w-full relative mb-0">
+            <img class="shadow-2xl rounded-tr-md" src="../assets/landing-hero-2.png" alt="An assortment of vegetables">
+            <div class="flex flex-col items-center text-center">
+                <p class="mb-5 text-2xl font-normal text-black uppercase font-bold w-[70%]">Food insecurity is one of the world's leading problems</p>
+                <p class="text-2xl font-normal text-midnight uppercase font-bold w-[70%]">This is unacceptable.</p>
+                <span class="w-[47.5rem] bg-midnight opacity-70 h-10 absolute bottom-0 right-0 z-0"></span>
             </div>
         </div>
+
+        <div class="px-4 items-center w-screen flex flex-col pt-8 pb-16 mb-2 relative z-30">
+            <div class="bg-antique-fuschia absolute top-0 left-0 w-[43%] h-full z-0" id="landing-trapezoid"></div>
+            <h3 class="uppercase font-bold text-center text-2xl mb-2 relative z-20">What is food insecurity?</h3>
+            <span class="bg-midnight h-[0.18rem] w-60 mb-8"></span>
+            <div class="grid items-center md:grid-cols-[0.8fr_1.2fr] px-12 w-screen h-full">
+                <div>
+                    <div class="float-right mt-4 mr-12 w-[26rem] h-[17rem] relative text-white mix-blend-normal">
+                        <div class="relative bg-midnight w-full h-full rounded-[2.5rem] z-20">
+                            <p class="absolute font-medium text-pink-lace top-7 left-5 text-2xl uppercase z-20">Nearly</p>
+                            <p class="absolute top-[35%] left-[50%] translate-x-[-50%] translate-y-[-35%] font-medium text-[5rem] z-20">60%</p>
+                            <p class="absolute left-5 bottom-7 w-7/12 text-pink-lace font-medium uppercase text-2xl z-20">of food in Canada is lost</p>
+                        </div>
+                        <div class="bg-pink-lace mt-4 mr-12 rounded-[2.5rem] w-[26rem] h-[17rem] absolute -bottom-2 -left-2 z-10"></div>
+                    </div>
+                </div>
+                <p class="text-midnight text-2xl font-bold uppercase mx-auto pl-14">Food insecurity means you lack reliable access to a sufficient
+                    quantity of affordable, nutritious food.</p>
+            </div>
+        </div>
+
+        
+
     </main>
 
+    <script src="app.js"></script>
     <script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script>
 </body>
 

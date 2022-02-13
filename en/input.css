@@ -5,3 +5,7 @@
 * {
     font-family: Fira Sans;
 }
+
+#landing-trapezoid {
+    clip-path: polygon(0 0, 30% 0, 100% 100%, 0 100%);
+}
