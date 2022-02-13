@@ -14,7 +14,7 @@ If this idea were to work in reality we would need to contract drivers to pick u
 
 ## What it does
 
-###The website has three main functions:
+### The website has three main functions:
 
 - To inform curious visitors about the issue of food insecurity and how dealing with food waste will help to alleviate the problem
 
