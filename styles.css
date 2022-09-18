@@ -423,10 +423,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-div.pad-top {
-  padding-top: 5rem;
-}
-
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
