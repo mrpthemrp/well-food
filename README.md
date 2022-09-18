@@ -4,7 +4,7 @@
 
 A project by [Jackie G](https://github.com/jlg017), [Wafa Q](https://github.com/wafas-repo), [Deborah W](https://github.com/mrpthemrp), and [Carolyn W](https://github.com/cw118). Also an ElleHacks 2022 finalist.
 
-**See the prototype on Figma:** <https://www.figma.com/proto/k7awhli2KOVWhQHEh8PDLZ/Ellehacks-2022%3A-Fully-Developed---WellFood?node-id=20%3A121&scaling=scale-down&page-id=0%3A1&starting-point-node-id=20%3A121>
+**See the prototype on Figma:** <https://www.figma.com/proto/k7awhli2KOVWhQHEh8PDLZ/Ellehacks-2022%3A-Fully-Developed---WellFood?page-id=0%3A1&node-id=20%3A121&viewport=64%2C-150%2C0.14&scaling=scale-down&starting-point-node-id=20%3A121>
 
 **See our submission on Devpost:** <https://devpost.com/software/wellfood>
 
