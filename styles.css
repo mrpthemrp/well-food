@@ -95,11 +95,6 @@ h6 {
   font-size: inherit;
   font-weight: inherit;
 }
-
-.top-pad{
-  padding-top: 5rem;
-}
-
 /*
 Reset links to optimize for opt-in styling instead of opt-out.
 */
@@ -319,6 +314,11 @@ p,
 pre {
   margin: 0;
 }
+
+.top-pad{
+  margin-top: 5rem;
+}
+
 
 fieldset {
   margin: 0;
