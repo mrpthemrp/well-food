@@ -729,7 +729,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .w-screen {
-  padding: 50%;
+  border-color: transparent;
+  border-radius: 50%;
   width: 100vw;
 }
 
