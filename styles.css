@@ -729,8 +729,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .w-screen {
-  width: 100vw;
   padding-top: 5rem;
+  width: 100vw;
 }
 
 .w-\[43\%\] {
