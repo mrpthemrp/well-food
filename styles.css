@@ -730,6 +730,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-screen {
   width: 100vw;
+  padding-top: 5rem;
 }
 
 .w-\[43\%\] {
@@ -899,10 +900,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-background {
-  padding: 15rem;
 }
 
 .px-2 {
